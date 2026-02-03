@@ -1,4 +1,4 @@
-int missingNum(int *arr, int size) {
+int missingNum(int *arr, int size){
 int n = size + 1;
     long long total = (long long)n * (n + 1) / 2;
     long long sum = 0;
