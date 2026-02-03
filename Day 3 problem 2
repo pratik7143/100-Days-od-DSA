@@ -7,3 +7,4 @@ int n = size + 1;
         sum += arr[i];
     }
     return total - sum;
+}
