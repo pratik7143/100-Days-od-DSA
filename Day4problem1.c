@@ -11,7 +11,6 @@ void reverseArray(int arr[], int n) {
 }
 int main() {
     int n, i;
-    
     printf("Enter number of elements: ");
     scanf("%d", &n);
     
@@ -29,4 +28,5 @@ int main() {
         printf("%d ", arr[i]);
     printf("\n");
     return 0;
+
 }
