@@ -6,7 +6,6 @@ void reverseString(char* s, int sSize)
         char temp = s[left];
         s[left] = s[right];
         s[right] = temp;
-
         left++;
         right--;
     }
