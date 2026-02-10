@@ -15,7 +15,6 @@ int main() {
         i++;
         j--;
     }
-
     if (flag == 1)
         printf("Palindrome\n");
     else
@@ -23,6 +22,7 @@ int main() {
 
     return 0;
 }
+
 
 
 
