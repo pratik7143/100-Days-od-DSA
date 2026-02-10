@@ -3,7 +3,6 @@
 int main() {
     char str[100];
     int i, j, flag = 1;
-
     printf("Enter a string: ");
     scanf("%s", str);
 
@@ -26,3 +25,4 @@ int main() {
 
     return 0;
 }
+
