@@ -5,7 +5,6 @@ int main() {
     int i, j, flag = 1;
     printf("Enter a string: ");
     scanf("%s", str);
-
     i = 0;
     j = strlen(str) - 1;
 
@@ -25,4 +24,5 @@ int main() {
 
     return 0;
 }
+
 
