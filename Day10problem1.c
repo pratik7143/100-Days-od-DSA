@@ -7,7 +7,6 @@ int main() {
     scanf("%s", str);
     i = 0;
     j = strlen(str) - 1;
-
     while (i < j) {
         if (str[i] != str[j]) {
             flag = 0;
@@ -24,5 +23,6 @@ int main() {
 
     return 0;
 }
+
 
 
