@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
-int main() {
+int main() 
+{
     char str[100];
     int i, j, flag = 1;
     printf("Enter a string: ");
@@ -21,6 +22,7 @@ int main() {
         printf("Not Palindrome\n");
     return 0;
 }
+
 
 
 
