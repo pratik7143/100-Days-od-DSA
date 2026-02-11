@@ -23,6 +23,5 @@ int** transpose(int** matrix, int matrixSize,
             result[j][i] = matrix[i][j];
         }
     }
-
     return result;
 }
