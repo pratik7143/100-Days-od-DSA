@@ -11,8 +11,7 @@ int linearSearch(int arr[], int n, int key, int *comparisonCount) {
         }
     }
     return -1;  
-}
-
+}
 void displayArray(int arr[], int n) {
     printf("Array elements: ");
     for (int i = 0; i < n; i++) {
