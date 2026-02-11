@@ -42,7 +42,6 @@ int main() {
         printf("Element %d found at index %d (position %d)\n", key, result, result + 1);
     } else {
         printf("Element %d not found in the array\n", key);
-    }
-    
+    }
     return 0;
 }
