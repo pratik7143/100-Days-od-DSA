@@ -5,7 +5,6 @@ int** transpose(int** matrix, int matrixSize,
 {
     int rows = matrixSize;
     int cols = matrixColSize[0];
-
     // The transpose will have size cols x rows
     *returnSize = cols;
 
