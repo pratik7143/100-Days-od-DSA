@@ -7,7 +7,6 @@ int** transpose(int** matrix, int matrixSize,
     int cols = matrixColSize[0];
     // The transpose will have size cols x rows
     *returnSize = cols;
-
     // Allocate returnColumnSizes
     *returnColumnSizes = (int*)malloc(cols * sizeof(int));
     for (int i = 0; i < cols; i++) {
