@@ -12,7 +12,6 @@ int** transpose(int** matrix, int matrixSize,
     for (int i = 0; i < cols; i++) {
         (*returnColumnSizes)[i] = rows;
     }
-
     // Allocate the resultant transposed matrix
     int** result = (int**)malloc(cols * sizeof(int*));
     for (int i = 0; i < cols; i++) {
