@@ -1,7 +1,6 @@
 #include <stdio.h>
 int main() {
     int n, i, j, symmetric = 1;
-    
     printf("Enter order of square matrix: ");
     scanf("%d", &n);
 
@@ -28,4 +27,5 @@ int main() {
 
     return 0;
 }
+
 
