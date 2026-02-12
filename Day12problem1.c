@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main() {
     int n, i, j, symmetric = 1;
     
@@ -29,3 +28,4 @@ int main() {
 
     return 0;
 }
+
