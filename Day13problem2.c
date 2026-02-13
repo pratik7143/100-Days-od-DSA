@@ -1,9 +1,7 @@
 
 int* spiralOrder(int** matrix, int matrixSize, int* matrixColSize, int* returnSize) {
-    
     int m = matrixSize;
     int n = matrixColSize[0];
-    
     int top = 0, bottom = m - 1;
     int left = 0, right = n - 1;
     
