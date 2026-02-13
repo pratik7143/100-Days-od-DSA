@@ -7,15 +7,10 @@ int* spiralOrder(int** matrix, int matrixSize, int* matrixColSize, int* returnSi
     int total = m * n;
     int* result = (int*)malloc(total * sizeof(int));
     int k = 0;
-    
     while (top <= bottom && left <= right) {
-        
-        // Left to Right
         for (int i = left; i <= right; i++)
             result[k++] = matrix[top][i];
         top++;
-        
-        // Top to Bottom
         for (int i = top; i <= bottom; i++)
             result[k++] = matrix[i][right];
         right--;
