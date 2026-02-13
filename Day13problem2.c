@@ -4,7 +4,6 @@ int* spiralOrder(int** matrix, int matrixSize, int* matrixColSize, int* returnSi
     int n = matrixColSize[0];
     int top = 0, bottom = m - 1;
     int left = 0, right = n - 1;
-    
     int total = m * n;
     int* result = (int*)malloc(total * sizeof(int));
     int k = 0;
