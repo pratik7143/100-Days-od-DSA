@@ -10,7 +10,6 @@ int main() {
             scanf("%d", &a[i][j]);
         }
     }
-    
     int isIdentity = 1;  // assume it is identity
     
     for(i = 0; i < n; i++) {
@@ -33,6 +32,7 @@ int main() {
     
     return 0;
 }
+
 
 
 
