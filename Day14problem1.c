@@ -3,7 +3,6 @@ int main() {
     int n, i, j;
     printf("Enter the order of square matrix: ");
     scanf("%d", &n);
-    
     int a[n][n];
     
     printf("Enter the matrix elements:\n");
@@ -35,5 +34,6 @@ int main() {
     
     return 0;
 }
+
 
 
