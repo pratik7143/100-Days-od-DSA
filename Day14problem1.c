@@ -11,7 +11,6 @@ int main() {
         }
     }
     int isIdentity = 1;  // assume it is identity
-    
     for(i = 0; i < n; i++) {
         for(j = 0; j < n; j++) {
             if(i == j && a[i][j] != 1) {
@@ -32,6 +31,7 @@ int main() {
     
     return 0;
 }
+
 
 
 
