@@ -3,7 +3,6 @@ int main() {
     int n, i, j;
     printf("Enter size of square matrix: ");
     scanf("%d", &n);
-
     int matrix[n][n];
     int sum = 0;
 
@@ -27,5 +26,6 @@ int main() {
 
     return 0;
 }
+
 
 
