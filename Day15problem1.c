@@ -5,7 +5,6 @@ int main() {
     scanf("%d", &n);
     int matrix[n][n];
     int sum = 0;
-
     printf("Enter matrix elements:\n");
     for(i = 0; i < n; i++) {
         for(j = 0; j < n; j++) {
@@ -25,6 +24,7 @@ int main() {
 
     return 0;
 }
+
 
 
 
