@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main() {
     int n, i;
     printf("Enter number of elements: ");
@@ -28,4 +27,5 @@ int main() {
 
     return 0;
 }
+
 
