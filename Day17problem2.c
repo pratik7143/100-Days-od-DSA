@@ -4,7 +4,6 @@ int maxSubArray(int* nums, int numsSize) {
     int maxSum = nums[0];
     
     for(int i = 1; i < numsSize; i++) {
-        
         // Decide whether to continue the subarray or start new
         if(currentSum + nums[i] > nums[i])
             currentSum = currentSum + nums[i];
