@@ -15,6 +15,5 @@ int maxSubArray(int* nums, int numsSize) {
         if(currentSum > maxSum)
             maxSum = currentSum;
     }
-    
     return maxSum;
 }
