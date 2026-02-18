@@ -8,7 +8,6 @@ void reverse(int* nums, int start, int end) {
         end--;
     }
 }
-
 void rotate(int* nums, int numsSize, int k) {
     if (numsSize == 0) return;
 
@@ -39,4 +38,5 @@ int main() {
 
     return 0;
 }
+
 
