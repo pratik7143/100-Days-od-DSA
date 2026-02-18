@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 void reverse(int* nums, int start, int end) {
     while (start < end) {
         int temp = nums[start];
@@ -40,3 +39,4 @@ int main() {
 
     return 0;
 }
+
