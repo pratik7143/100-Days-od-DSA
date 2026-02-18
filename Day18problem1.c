@@ -13,12 +13,8 @@ void rotate(int* nums, int numsSize, int k) {
     k = k % numsSize;  
     reverse(nums, 0, numsSize - 1);
     reverse(nums, 0, k - 1);
-
-    // Step 3: Reverse remaining elements
     reverse(nums, k, numsSize - 1);
 }
-
-// For testing
 int main() {
     int nums[] = {1,2,3,4,5,6,7};
     int k = 3;
@@ -33,6 +29,7 @@ int main() {
 
     return 0;
 }
+
 
 
 
