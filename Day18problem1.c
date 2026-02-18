@@ -10,10 +10,7 @@ void reverse(int* nums, int start, int end) {
 }
 void rotate(int* nums, int numsSize, int k) {
     if (numsSize == 0) return;
-
-    k = k % numsSize;  // Handle k > numsSize
-
-    // Step 1: Reverse entire array
+    k = k % numsSize;  
     reverse(nums, 0, numsSize - 1);
 
     // Step 2: Reverse first k elements
@@ -38,5 +35,6 @@ int main() {
 
     return 0;
 }
+
 
 
