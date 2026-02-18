@@ -1,14 +1,9 @@
 #include <stdio.h>
-
 int main() {
     int a[10][10], b[10][10], sum[10][10];
     int r, c;
-
-    // Input number of rows and columns
     printf("Enter number of rows and columns: ");
     scanf("%d %d", &r, &c);
-
-    // Input first matrix
     printf("Enter elements of Matrix A:\n");
     for(int i = 0; i < r; i++) {
         for(int j = 0; j < c; j++) {
@@ -42,3 +37,4 @@ int main() {
 
     return 0;
 }
+
