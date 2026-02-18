@@ -12,7 +12,6 @@ int main() {
         }
     }
     for(i = 0; i < n; i++) {
-        
         sum += matrix[i][i];
 
         // Secondary diagonal
@@ -24,6 +23,7 @@ int main() {
 
     return 0;
 }
+
 
 
 
