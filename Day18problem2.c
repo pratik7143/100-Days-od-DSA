@@ -1,7 +1,6 @@
 #include <stdlib.h>
 int* productExceptSelf(int* nums, int numsSize, int* returnSize) {
     *returnSize = numsSize;
-    
     int* result = (int*)malloc(numsSize * sizeof(int));
     
     // Build prefix products directly into result
