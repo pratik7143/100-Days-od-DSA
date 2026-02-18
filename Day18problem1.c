@@ -19,9 +19,7 @@ int main() {
     int nums[] = {1,2,3,4,5,6,7};
     int k = 3;
     int size = sizeof(nums)/sizeof(nums[0]);
-
     rotate(nums, size, k);
-
     printf("Rotated Array: ");
     for(int i = 0; i < size; i++) {
         printf("%d ", nums[i]);
@@ -29,6 +27,7 @@ int main() {
 
     return 0;
 }
+
 
 
 
