@@ -14,7 +14,6 @@ int* spiralOrder(int** matrix, int matrixSize, int* matrixColSize, int* returnSi
         for (int i = top; i <= bottom; i++)
             result[k++] = matrix[i][right];
         right--;
-        
         if (top <= bottom) {
             for (int i = right; i >= left; i--)
                 result[k++] = matrix[bottom][i];
