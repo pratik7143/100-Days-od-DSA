@@ -25,7 +25,6 @@ void pairClosestToZero(int arr[], int n)
             bestLeft = left;
             bestRight = right;
         }
-
         if (sum < 0)
             left++;
         else
@@ -45,5 +44,6 @@ int main()
 
     return 0;
 }
+
 
 
