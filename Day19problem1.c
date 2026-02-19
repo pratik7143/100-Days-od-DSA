@@ -30,7 +30,6 @@ void pairClosestToZero(int arr[], int n)
         else
             right--;
     }
-
     printf("Pair closest to zero: %d and %d (Sum = %d)\n",
            arr[bestLeft], arr[bestRight], minSum);
 }
@@ -44,6 +43,7 @@ int main()
 
     return 0;
 }
+
 
 
 
