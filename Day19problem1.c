@@ -17,7 +17,6 @@ void pairClosestToZero(int arr[], int n)
     int left = 0, right = n - 1;
     int minSum = INT_MAX;
     int bestLeft = left, bestRight = right;
-
     while (left < right) {
         int sum = arr[left] + arr[right];
 
@@ -46,4 +45,5 @@ int main()
 
     return 0;
 }
+
 
