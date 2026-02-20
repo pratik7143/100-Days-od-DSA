@@ -16,7 +16,6 @@ void quicksort(int* a, int l, int r) {
             }
         }
 
-        // Tail-call elimination: recurse into smaller side first
         if (j - l < r - i) {
             if (l < j) quicksort(a, l, j);
             l = i;
