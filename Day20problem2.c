@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 void quicksort(int* a, int l, int r) {
     while (l < r) {
         int i = l, j = r;
