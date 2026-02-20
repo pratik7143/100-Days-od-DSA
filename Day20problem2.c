@@ -33,8 +33,6 @@ int** threeSum(int* nums, int numsSize, int* returnSize, int** returnColumnSizes
     }
 
     quicksort(nums, 0, numsSize - 1);
-
-    // Preallocate for worst-case scenario
     int capacity = 20000;
     int** res = (int**)malloc(capacity * sizeof(int*));
     *returnColumnSizes = (int*)malloc(capacity * sizeof(int));
