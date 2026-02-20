@@ -24,8 +24,6 @@ void quicksort(int* a, int l, int r) {
         }
     }
 }
-
-// ---------- MAIN FUNCTION ----------
 int** threeSum(int* nums, int numsSize, int* returnSize, int** returnColumnSizes) {
 
     *returnSize = 0;
