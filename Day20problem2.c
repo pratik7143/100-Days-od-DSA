@@ -25,7 +25,6 @@ void quicksort(int* a, int l, int r) {
     }
 }
 int** threeSum(int* nums, int numsSize, int* returnSize, int** returnColumnSizes) {
-
     *returnSize = 0;
 
     if (numsSize < 3) {
