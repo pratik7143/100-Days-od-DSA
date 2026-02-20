@@ -32,7 +32,6 @@ int** threeSum(int* nums, int numsSize, int* returnSize, int** returnColumnSizes
         return NULL;
     }
 
-    // SORT
     quicksort(nums, 0, numsSize - 1);
 
     // Preallocate for worst-case scenario
