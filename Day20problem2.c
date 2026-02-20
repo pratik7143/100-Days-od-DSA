@@ -4,7 +4,6 @@ void quicksort(int* a, int l, int r) {
     while (l < r) {
         int i = l, j = r;
         int pivot = a[(l + r) >> 1];
-
         while (i <= j) {
             while (a[i] < pivot) i++;
             while (a[j] > pivot) j--;
