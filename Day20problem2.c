@@ -15,7 +15,6 @@ void quicksort(int* a, int l, int r) {
                 j--;
             }
         }
-
         if (j - l < r - i) {
             if (l < j) quicksort(a, l, j);
             l = i;
