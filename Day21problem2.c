@@ -6,5 +6,5 @@ struct ListNode* middleNode(struct ListNode* head) {
         fast = fast->next->next;    
     }
 
-    return slow; // slow will be at middle
+    return slow; 
 }
