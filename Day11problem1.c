@@ -10,23 +10,17 @@ int main() {
             scanf("%d", &a[i][j]);
         }
     }
-
-    // Input second matrix
     printf("Enter elements of Matrix B:\n");
     for(int i = 0; i < r; i++) {
         for(int j = 0; j < c; j++) {
             scanf("%d", &b[i][j]);
         }
     }
-
-    // Calculate sum
     for(int i = 0; i < r; i++) {
         for(int j = 0; j < c; j++) {
             sum[i][j] = a[i][j] + b[i][j];
         }
     }
-
-    // Output the result
     printf("Resultant Matrix (A + B):\n");
     for(int i = 0; i < r; i++) {
         for(int j = 0; j < c; j++) {
@@ -34,7 +28,7 @@ int main() {
         }
         printf("\n");
     }
-
     return 0;
 }
+
 
